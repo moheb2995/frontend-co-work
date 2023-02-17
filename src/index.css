@@ -1,0 +1,61 @@
+@import url('./Webfonts/style.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+  * {@apply text-[#4B4B4B] };img {@apply inline-block };p {@apply text-[#8A8A8A]} input,textarea,select{@apply outline-none }
+  .title-b {@apply bold py-4 text-[#00294D] text-3xl inline-block}
+  .borderr {@apply border-[#00294D] border-r-[3.5px] px-4 }
+  .title {@apply text-xl bold text-[#00294D] text-center}
+  .bold {@apply font-bold }
+  .btn {@apply rounded-3xl w-32 p-2.5 mx-2 }
+  .square {@apply h-[28.3vw] w-[40vw] bg-[#D9D9D9] mx-4 rounded }
+  .step {@apply w-10 h-10 mx-4 rounded-full }
+  .step1 {@apply bold w-10 h-10 mx-3 text-center p-2 text-[18px] text-white bg-[#00294D] rounded-full }
+  .line {@apply w-[5vw] h-0.5 bg-black mx-2 mt-5  }
+  .step-t {@apply text-[#4B4B4B] bold mx-1 mt-1 }
+  .step-t1 {@apply text-[#00294D] bold mx-1 mt-1 }
+  .input {@apply mx-3 w-12 h-12 bg-transparent bold  border-black border-b-[1.5px] text-center}
+  .input1 {@apply m-1 p-1 inline-block bg-transparent text-xl w-[97%] }
+  .btn-blue {@apply btn my-6 bg-[#00294D] text-white w-[100%] m-auto rounded-xl}
+  .nav-btn {@apply rounded-l-3xl py-2.5 m-0.5 my-2 text-lg -mr-5 inline-block  } /**/
+  .border1 {@apply border-[#8B8B8B] rounded-xl w-[380px] my-10  border-[1.5px] }
+  .text-border {@apply -mt-3.5 mx-4 w-28 text-sm text-center }
+  .thUser {@apply p-2 }
+  .tdUser {@apply text-center p-5 text-base }
+  .img-card {@apply bg-[#8094A6] w-16 h-16 p-4 rounded-2xl }
+  .thAdmin {@apply p-4 }
+  .tdAdmin {@apply p-4 }
+  .hAdmin {@apply bg-[#F6F6F6] title text-[24px] font-medium text-right p-5 px-10 rounded-lg }
+  .cardSite {@apply bg-[#00294D] rounded-2xl w-36 h-36 }
+  .input2 {@apply mb-4 bg-[#E2E2E2] rounded-md p-2 }
+  .icon {@apply p-4 w-20 }
+  .card {@apply w-[38.7vw] shadow-2xl p-4 pb-14 px-6 rounded-xl }
+  .card1 {@apply bg-[#f5f5f5] w-[380px] rounded-xl p-5 }
+  .button-p {@apply my-1 px-4 text-[#4B4B4B] }
+  .border1 {@apply border-[#8B8B8B] rounded-xl w-[66%] m-auto my-4 border-[1.5px] }
+  .t1 {@apply bg-white -mt-3.5 mx-4 text-sm text-center }
+  .backdrop {@apply bg-black z-10 fixed top-0 left-0 opacity-30 w-[100vw] h-[100vh] text-center }
+  .btn-s {@apply bg-[#00294D] w-40 text-lg px-4 py-2.5 rounded-lg text-white h-min font-medium }
+  /* . {@apply } */
+  /* . {@apply } */
+}
+
+.bg-img{ background: url('./Subtract.png') repeat top }
+ 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+figure > img {
+  grid-row: 1/-1 ;
+  grid-column: 1;
+}
+
+.figcaption {
+  grid-row: 1;
+  grid-column: 1;
+  padding: .2em .5em;
+}
+
